@@ -1,0 +1,46 @@
+h1 {
+    font-size: 3rem;
+  }
+  
+  .button {
+    padding: 1rem 2rem;
+    border: 3px solid black;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: white;
+  }
+  
+  .button--active {
+    background-color: black;
+    color: white;
+  }
+  
+  .mouse-positions {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+  
+  .container {
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(212, 212, 212);
+    padding: 2rem 2rem 4rem;
+    width: 40rem;
+  }
+  
+  /* .container:hover {
+    background-color: rgb(140, 140, 231);
+  } */
+  
+  body {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .blue {
+    background-color: rgb(140, 140, 231);
+  }
+  
